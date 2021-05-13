@@ -4,7 +4,7 @@ function myAlert() {
 
 const mutation = `
     mutation {
-        changeUserStatus(input: {clientMutationId: "YOUR_USERNAME", emoji: ":rocket:", expiresAt: "2021-05-09T00:00:00", limitedAvailability: true,  message:"Working on an API tutorial"}) {
+        changeUserStatus(input: {clientMutationId: "YOUR_USER_ID", emoji: ":rocket:", expiresAt: "2021-05-09T00:00:00", limitedAvailability: true,  message:"Working on an API tutorial"}) {
                     clientMutationId
                     status {
                         message
@@ -19,11 +19,11 @@ const mutation = `
 const url = "https://api.github.com/graphql";
 let opts = {
     method: "POST",
-    headers: { "Content-Type": "application/json", "Authorization": "Bearer PERSONAL_ACCESS_TOKEN" },
+    headers: { "Content-Type": "application/json", "Authorization": "Bearer YOUR_PERSONAL_ACCESS_TOKEN" },
     body: JSON.stringify({query: mutation })
     };
 
-
+    
 fetch(url, opts)
   .then(res => res.json())
   .then(console.log)
