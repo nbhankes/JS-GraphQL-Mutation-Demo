@@ -4,9 +4,9 @@ In this tutorial, you'll learn about GraphQL mutations, authorization, and get a
 
 If you missed the other parts to this API series, you can find the rest at:
 
-[Part 1 - An Intro to APIs](https://dev.to/vetswhocode/the-api-series-part-1-an-intro-to-apis-1bd)
-[Part 2 - The REST API, fetch(), and AXIOS](https://dev.to/vetswhocode/the-api-series-part-2-the-rest-api-fetch-and-axios-lf)
-[Part 3 - GraphQL and Sending Queries With fetch()](https://dev.to/vetswhocode/the-api-series-graphql-and-sending-queries-with-fetch-gf0)
+- [Part 1 - An Intro to APIs](https://dev.to/vetswhocode/the-api-series-part-1-an-intro-to-apis-1bd)
+- [Part 2 - The REST API, fetch(), and AXIOS](https://dev.to/vetswhocode/the-api-series-part-2-the-rest-api-fetch-and-axios-lf)
+- [Part 3 - GraphQL and Sending Queries With fetch()](https://dev.to/vetswhocode/the-api-series-graphql-and-sending-queries-with-fetch-gf0)
 
 ## Prerequisites
 
